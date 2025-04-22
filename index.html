@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #007BFF, #00b3ff);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: scale(1.01);
+    }
+    .project h2 {
+      margin-top: 0;
+      color: #007BFF;
+    }
+    .project p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      background-color: #f8f9fa;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Project Portfolio</h1>
+    <p>Showcasing my creative and technical projects built with 💻 Python, 🧠 AI, and more!</p>
+  </header>
+  <div class="container" id="projects">
+
+    <div class="project">
+      <h2>🧮 Scientific Calculator (Tkinter)</h2>
+      <p>This desktop application is built using Python's Tkinter library and includes both basic and advanced scientific operations. It supports dark/light mode themes, real-time keyboard input, and keeps a history of the last 10 calculations with a slick side panel UI.</p>
+      <p>Features include: sin, cos, tan, log, ln, sqrt, exponentiation, factorial, parentheses handling, and responsive GUI buttons with hover effects.</p>
+      <a href="#" download>🔗 Download Source Code</a>
+    </div>
+
+    <div class="project">
+      <h2>🔢 Even or Odd Number Checker (CLI)</h2>
+      <p>A simple and interactive terminal-based Python program that checks if a number entered by the user is even or odd. It validates user input against invalid characters and gives instant feedback for correct or incorrect entries.</p>
+      <p>Features include: input validation, user guidance, error messages for incorrect data types, and continuous looping until user exits.</p>
+      <a href="#" download>📥 Download odd_even_checker.py</a>
+    </div>
+
+    <div class="project">
+      <h2>🌡️ Temperature Converter (GUI)</h2>
+      <p>A Python-based graphical temperature converter using Tkinter. Users can convert between Celsius and Fahrenheit with ease. It also includes validation, error prompts, conversion history display, and a dropdown selector for conversion direction.</p>
+      <p>Features include: GUI design, real-time conversion, input error detection, Celsius-to-Fahrenheit and Fahrenheit-to-Celsius switching, and history tracking of last 10 conversions.</p>
+      <a href="#" download>📥 Download temperature_converter-GUI.py</a>
+    </div>
+
+  </div>
+  <footer>
+    &copy; 2025 radhika verma | Built with passion and Python 🐍 | Connect on <a href="https://github.com/your-username" target="_blank">GitHub</a>
+  </footer>
+</body>
+</html>
